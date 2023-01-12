@@ -26,5 +26,10 @@ export const DrawPic: RouteRecordRaw = {
       component: () => import('@/views/draw/KeywordItem.vue'),
       meta: { title: "关键字图" },
     },
+    {
+      path: 'sigma',
+      component: () => import('@/views/draw/testSigma/SigmaItem.vue'),
+      meta: { title: "测试" },
+    },
   ]
 }
